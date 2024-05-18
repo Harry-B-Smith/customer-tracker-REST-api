@@ -1,0 +1,5 @@
+<tr th:each="customer: ${customers}" xmlns:th="http://www.w3.org/1999/xhtml">
+    <td th:text="${customer.id}" />
+    <td th:text="${customer.firstName}" />
+    <td th:text="${customer.lastName}" />
+</tr>
